@@ -20,7 +20,6 @@
   <!--CSS-->
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
   <br/>
-
 ## 🔗 Link
 [![Velog](img.shields.io)](https://velog.io/@kimjongwon987/posts)
 

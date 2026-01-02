@@ -21,6 +21,7 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white"/>
   <br/>
 ## 🔗 Link
+
 https://velog.io/@kimjongwon987/posts
 
 > 클릭하시면 저의 학습 기록이 담긴 **개발 블로그**를 구경하실 수 있습니다!

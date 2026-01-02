@@ -6,7 +6,7 @@
   ### 오즈코딩스쿨의 초격차 캠프 17기입니다.
 
   <br>
-  #Language
+  ## Language
   <!--Python-->
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/>
   <!--JavaScript-->

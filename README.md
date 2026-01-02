@@ -1,6 +1,8 @@
 # 🚀 Welcome to Kim Jongwon's GitHub
 
-![header](capsule-render.vercel.app)
+<p align="center">
+  <img src="capsule-render.vercel.app" />
+</p>
 
 
 ## 💫 About Me

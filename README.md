@@ -23,11 +23,6 @@
   <br/>
 
 ## 🔗 Contact & Link
-<!-- 벨로그 활동 정보 배지 -->
-[![Velog's GitHub stats](
+[![Velog Badge](img.shields.io)](https://velog.io/@kimjongwon987/posts)
 
 > 클릭하시면 저의 학습 기록이 담긴 **개발 블로그**를 구경하실 수 있습니다!
-
----
-<!-- 깃허브 스탯 (선택 사항) -->
-![KimJongWon's GitHub stats](github-readme-stats.vercel.app)

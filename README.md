@@ -8,7 +8,7 @@
 
 - 🌱 저는 현재 **백엔드 기술**을 깊이 있게 배우고 있습니다.
 - 🎓 **오즈스쿨 초격차 17기** 교육 과정을 통해 탄탄한 기초와 실무 역량을 쌓고 있습니다.
-- 💡 효율적인 아키텍처와 효율적인 코드에 관심이 많습니다.
+- 💡 I'm interested in efficient architecture and efficient code.
 
 ## 🧱 Tech Stack
   ### Language

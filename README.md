@@ -1,6 +1,6 @@
 fl<div>
   <!--Header-->
-  ![header](https://김종원의 깃허브.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90h
+  ![header](https:// 김종원의 깃허브.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90h
   
 </div>
 
@@ -8,9 +8,9 @@ fl<div>
   <!--Body-->
   
   ## 👀 About Me
-  #### :raising_hand: 저는 김종원입니다.<br/>
-  #### :목표: 저는 백엔드 개발자를 목표로 합니다.<br/>
-  #### :mortar_board: ...
+  #### raising_hand: 저는 김종원입니다.<br/>
+  #### 목표: 저는 백엔드 개발자를 목표로 합니다.<br/>
+  #### mortar_board: ...
   <br/>
   <br/>
   

@@ -1,14 +1,13 @@
-# 🚀 Welcome to Kim Jongwon's GitHub
-
+# 🚀 김종원의 깃허브입니다.
 ![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Kim%20Jongwon)
 
 
-## 💫 About Me
+## 💫 저에 대하여
 안녕하세요! 꿈나무 개발자로서 끊임없이 성장하고 있는 **김종원**입니다. 
 
 - 🌱 저는 현재 **백엔드 기술**을 깊이 있게 배우고 있습니다.
 - 🎓 **오즈스쿨 초격차 17기** 교육 과정을 통해 탄탄한 기초와 실무 역량을 쌓고 있습니다.
-- 💡 I'm interested in efficient architecture and efficient code.
+- 💡 저는 흥미로운 주제에 대해 분석하고 연구하는 것을 좋아합니다.
 
 ## 🧱 Tech Stack
   ### Language

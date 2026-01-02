@@ -1,7 +1,7 @@
 # 🚀 Welcome to Kim Jongwon's GitHub
 
-<!-- 헤더 부분: 이름 포함 -->
 ![header](capsule-render.vercel.app)
+
 
 ## 💫 About Me
 안녕하세요! 꿈나무 개발자로서 끊임없이 성장하고 있는 **김종원**입니다. 

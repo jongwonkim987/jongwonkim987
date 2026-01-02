@@ -8,7 +8,7 @@ fl<div>
   <!--Body-->
   
   ## 👀 About Me
-  #### :raising_hand: I am a ...<br/>
+  #### :raising_hand: I am a 김종원<br/>
   #### :fire: I aim to become a ...<br/>
   #### :mortar_board: ...
   <br/>

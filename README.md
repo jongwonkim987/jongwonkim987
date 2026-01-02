@@ -1,6 +1,6 @@
-fl<div>
-  <!--Header-->
-  ![header](https://capsule-render.vercel.app/a/pi?type=waving&color=gradient&height=300&section=header&text=Good%20to%20see%20you%20%F0%9F%A4%97)
+<div>
+  <img src="https://capsule-render.vercel.app/api?type=모양&color=색상코드&height=높이&section=header&text=텍스트&fontSize=텍스
+출처: https://hulrud.tistory.com/3 [주독야독:티스토리]
   
 </div>
 

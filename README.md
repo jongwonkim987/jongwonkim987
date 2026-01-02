@@ -1,6 +1,6 @@
 fl<div>
   <!--Header-->
-  ![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&section=header&text=Good%20to%20see%20you%20%F0%9F%A4%97)
+  ![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
   
 </div>
 
@@ -9,7 +9,7 @@ fl<div>
   
   ## 👀 About Me
   #### :raising_hand: 저는 김종원입니다.<br/>
-  #### :fire: I aim to become a ...<br/>
+  #### :fire: 저는 백엔드 개발자를 목표로 합니다. 저 br
   #### :mortar_board: ...
   <br/>
   <br/>

@@ -23,7 +23,8 @@
   <br/>
 
 ## 🔗 Contact & Link
-[![Velog Badge](img.shields.io)](velog.io)
+<!-- 벨로그 활동 정보 배지 -->
+[![Velog's GitHub stats](
 
 > 클릭하시면 저의 학습 기록이 담긴 **개발 블로그**를 구경하실 수 있습니다!
 

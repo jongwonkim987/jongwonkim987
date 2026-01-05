@@ -22,7 +22,7 @@
 
 ## 🌱 Currently Learning
 - linux
-- git%github
+- git&github
 
 ## 📌 Goal
 > 오늘보다 더 나은 개발자가 되는 것  

@@ -1,0 +1,33 @@
+* {
+  list-style-position: inside;
+  text-align: center;
+  padding-left: 0%;
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+}
+
+html {
+  background-color: rgb(181, 228, 228);
+}
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  width: 640px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+}
+
+p {
+  font-size: 1.2rem;
+}

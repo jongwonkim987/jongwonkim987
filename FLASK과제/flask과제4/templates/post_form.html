@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% if mode == "create" %}
+  {% set page_title = "글 작성" %}
+{% else %}
+  {% set page_title = "글 수정" %}
+{% endif %}
+
+{% block title %}{{ page_title }} - 미니 블로그{% endblock %}
+
+{% block content %}
+  <div class="card">
+    <h2 style="margin:0 0 12px;">{{ page_title }}</h2>
+
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+
+    {% if mode == "create" %}
+      <form method="POST" action="{{ url_for('posts.create_post') }}">
+    {% else %}
+      <form method="POST" action="{{ url_for('posts.update_post', post_id=post.id) }}">
+    {% endif %}
+
+      <div style="margin-bottom: 10px;">
+        <label class="muted">제목</label>
+        <input type="text" name="title" value="{{ post.title if post else '' }}" placeholder="제목을 입력하세요" required />
+      </div>
+
+      <div style="margin-bottom: 10px;">
+        <label class="muted">내용</label>
+        <textarea name="content" placeholder="내용을 입력하세요" required>{{ post.content if post else '' }}</textarea>
+      </div>
+
+      <div class="row">
+        <button class="btn" type="submit">
+          {% if mode == "create" %}작성{% else %}저장{% endif %}
+        </button>
+        <a class="btn light" href="{{ url_for('posts.index') }}">취소</a>
+      </div>
+    </form>
+  </div>
+{% endblock %}

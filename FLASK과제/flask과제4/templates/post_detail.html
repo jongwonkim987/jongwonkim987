@@ -1,0 +1,32 @@
+{% extends "base.html" %} {% block title %}{{ post.title }} - 미니 블로그{%
+endblock %} {% block content %}
+<div class="card">
+  <h2 style="margin: 0 0 8px">{{ post.title }}</h2>
+  <div class="muted">
+    작성: {{ post.created_at.strftime("%Y-%m-%d %H:%M") }} {% if post.updated_at
+    %} · 수정: {{ post.updated_at.strftime("%Y-%m-%d %H:%M") }} {% endif %}
+  </div>
+
+  <div class="hr"></div>
+
+  <div style="white-space: pre-wrap; line-height: 1.7">{{ post.content }}</div>
+
+  <div class="hr"></div>
+
+  <div class="row">
+    <a class="btn light" href="{{ url_for('posts.index') }}">목록</a>
+    <a class="btn" href="{{ url_for('posts.edit_post', post_id=post.id) }}"
+      >수정</a
+    >
+
+    <form
+      method="POST"
+      action="{{ url_for('posts.delete_post', post_id=post.id) }}"
+      onsubmit="return confirm('정말 삭제할까요?');"
+      style="margin: 0"
+    >
+      <button class="btn danger" type="submit">삭제</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

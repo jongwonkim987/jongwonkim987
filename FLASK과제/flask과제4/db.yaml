@@ -1,3 +1,0 @@
-db:
-  url: 'sqlite:///blog.db'
-  echo: false

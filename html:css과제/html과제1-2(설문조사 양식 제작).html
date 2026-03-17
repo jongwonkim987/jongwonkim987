@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>설문조사 양식 만들기</title>
+  </head>
+  <body>
+    <header id="personal_inroduce">
+      <h1>설문조사 양식</h1>
+      <p>모든 항목에 빠짐없이 체크해주십시오.</p>
+    </header>
+    <hr />
+    <main id="survey">
+      <form>
+        <fieldset>
+          <legend>개인정보</legend>
+          <label for="name">이름</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="이름을 입력해주세요."
+          />
+          <br />
+          <label for="age">이메일</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="나이를 입력해주세요."
+          />
+        </fieldset>
+        <fieldset>
+          <legend>설문</legend>
+          <p>연령대가 어떻게 되십니까?</p>
+          <input type="radio" id="teen" name="age" value="10" />
+          <label for="teen">10대</label>
+          <input type="radio" id="twenty" name="age" value="20" />
+          <label for="twenty">20대</label>
+          <input type="radio" id="thirty" name="age" value="30" />
+          <label for="thrity">30대</label>
+          <input type="radio" id="forty" name="age" value="40" />
+          <label for="fourty">40대</label>
+          <input type="radio" id="fifty" name="age" value="50" />
+          <label for="fifty">50대</label>
+          <input type="radio" id="others" name="age" value="others" />
+          <label for="others">그 외</label>
+          <p>학원 선택 시의 기준을 모두 골라주세요.</p>
+          <input
+            type="checkbox"
+            id="position"
+            name="standard"
+            value="position"
+          />
+          <label for="position">위치</label>
+          <input type="checkbox" id="fee" name="standard" value="fee" />
+          <label for="fee">학원비</label>
+          <input type="checkbox" id="teacher" name="standard" value="teacher" />
+          <label for="teacher">강사</label>
+          <input type="checkbox" id="func" name="standard" value="func" />
+          <label for="func">시설</label>
+        </fieldset>
+        <fieldset>
+          <legend>기타의견</legend>
+          <textarea
+            rows="3"
+            cols="30"
+            name="comments"
+            placeholder="없다면 넘어가주세요."
+          ></textarea>
+        </fieldset>
+        <button type="summit"><span>제출</span></button>
+      </form>
+    </main>
+    <hr />
+    <footer id="commit">
+      <p>입력하느라 수고하셨습니다.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.container {
+  height: 100%;
+  background-color: rgb(226, 226, 22);
+}
+.chat-screen {
+  height: calc(100% - 120px);
+}
+.user {
+  background-color: beige;
+  padding: 16px;
+  height: 80px;
+}
+.user_colum {
+  float: left;
+}
+.user_pic {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: rgb(228, 134, 18);
+}
+.user_nick,
+.user_count {
+  margin: 5px;
+}
+.user_commit {
+  font-size: 12px;
+  color: gray;
+}
+.chat-form {
+  height: 120px;
+  background-color: white;
+}
+.chat-form_field {
+  height: 120px;
+}
+.chat-form_msg {
+  float: left;
+  width: calc(100% - 120px);
+  height: 120px;
+  border: none;
+  resize: none;
+  font-size: 24px;
+  padding: 10px;
+}
+.chat-form_bt {
+  float: right;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  background-color: rgb(226, 226, 22);
+  font-size: 18px;
+}
+.chat-form_bt:active {
+  background-color: rgb(208, 161, 22);
+}
